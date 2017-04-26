@@ -8,12 +8,16 @@
 
 import Foundation
 import ObjectMapper
-//
-//class User :ObjectMapper {
-//    var userName : String?
-//    var userMessage : String?
-//    var lastConectTime : NSDate?
-//    var connectWay : String?
-//    
-//}
+
+class User  {
+    var userName : String?
+    var userMessage : String?
+    var lastConectTime : NSDate?
+    var connectWay : String?
+    
+    init() {
+        print("test")
+    }
+    
+}
 
