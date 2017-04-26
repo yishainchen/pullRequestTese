@@ -19,7 +19,7 @@ extension APIManager {
     
     // test func
     func getAppId() -> Observable<AnyObject> {
-        
+        var params = [Int]()
         return postToService()
         
     }
